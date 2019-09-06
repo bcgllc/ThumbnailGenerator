@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ThumbnailGenerator_Example' do
+  pod 'ThumbnailGenerator', :path => '../'
+
+  target 'ThumbnailGenerator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
