@@ -1,0 +1,16 @@
+PODS:
+  - ThumbnailGenerator (0.1.0)
+
+DEPENDENCIES:
+  - ThumbnailGenerator (from `../`)
+
+EXTERNAL SOURCES:
+  ThumbnailGenerator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ThumbnailGenerator: 3b758d5911be23cfd43dd36d195fa8b53d9676f5
+
+PODFILE CHECKSUM: b7955abf083b4074d4c0d943ea0f88c27ec48be8
+
+COCOAPODS: 1.6.1

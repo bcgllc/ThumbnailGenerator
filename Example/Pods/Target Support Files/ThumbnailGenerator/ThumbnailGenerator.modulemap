@@ -1,0 +1,6 @@
+framework module ThumbnailGenerator {
+  umbrella header "ThumbnailGenerator-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "ThumbnailGenerator",
+  "version": "0.1.0",
+  "summary": "A short description of ThumbnailGenerator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jonatahnburris/ThumbnailGenerator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jonatahnburris": "jonathanburris@Jonathans-MacBook-Pro-2.local"
+  },
+  "source": {
+    "git": "https://github.com/jonatahnburris/ThumbnailGenerator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ThumbnailGenerator/Classes/**/*"
+}

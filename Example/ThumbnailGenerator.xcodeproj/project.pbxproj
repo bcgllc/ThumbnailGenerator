@@ -41,12 +41,12 @@
 		607FACE51AFB9204008FA782 /* ThumbnailGenerator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThumbnailGenerator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6FE2002B9F6DA637FC98CFAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6FE2002B9F6DA637FC98CFAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7650EE831176F904F56728DB /* Pods-ThumbnailGenerator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThumbnailGenerator_Example.release.xcconfig"; path = "Target Support Files/Pods-ThumbnailGenerator_Example/Pods-ThumbnailGenerator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7ACC9929462C625A41D0158F /* Pods-ThumbnailGenerator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThumbnailGenerator_Tests.release.xcconfig"; path = "Target Support Files/Pods-ThumbnailGenerator_Tests/Pods-ThumbnailGenerator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A25B98CA674C965B764CA141 /* Pods_ThumbnailGenerator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThumbnailGenerator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF3BA8C26C4B2E4369CA6502 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FB90EF2C3E34015897B657C7 /* ThumbnailGenerator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ThumbnailGenerator.podspec; path = ../ThumbnailGenerator.podspec; sourceTree = "<group>"; };
+		AF3BA8C26C4B2E4369CA6502 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FB90EF2C3E34015897B657C7 /* ThumbnailGenerator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ThumbnailGenerator.podspec; path = ../ThumbnailGenerator.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				35BBB02D27CABFC330F65A4F /* Pods-ThumbnailGenerator_Tests.debug.xcconfig */,
 				7ACC9929462C625A41D0158F /* Pods-ThumbnailGenerator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5YLJBMBLTJ;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5YLJBMBLTJ;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -482,6 +484,7 @@
 			baseConfigurationReference = 4DB22ACE1F1517D81219BFF8 /* Pods-ThumbnailGenerator_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5YLJBMBLTJ;
 				INFOPLIST_FILE = ThumbnailGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -497,6 +500,7 @@
 			baseConfigurationReference = 7650EE831176F904F56728DB /* Pods-ThumbnailGenerator_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5YLJBMBLTJ;
 				INFOPLIST_FILE = ThumbnailGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -511,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35BBB02D27CABFC330F65A4F /* Pods-ThumbnailGenerator_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5YLJBMBLTJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -533,6 +538,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7ACC9929462C625A41D0158F /* Pods-ThumbnailGenerator_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5YLJBMBLTJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -7,18 +7,14 @@
 //
 
 import UIKit
+import ThumbnailGenerator
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        let originalPhoto = #imageLiteral(resourceName: "wall-1217083_1920.jpg")
+        let thumbnailImage = originalPhoto.generateThumbnail(ratio: 64)
     }
-
 }
 
