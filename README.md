@@ -1,6 +1,6 @@
 # ThumbnailGenerator
 
-[![CI Status](https://img.shields.io/travis/jonatahnburris/ThumbnailGenerator.svg?style=flat)](https://travis-ci.org/jonatahnburris/ThumbnailGenerator)
+[![CI Status](https://img.shields.io/travis/bcgllc/ThumbnailGenerator.svg?style=flat)](https://travis-ci.org/bcgllc/ThumbnailGenerator)
 [![Version](https://img.shields.io/cocoapods/v/ThumbnailGenerator.svg?style=flat)](https://cocoapods.org/pods/ThumbnailGenerator)
 [![License](https://img.shields.io/cocoapods/l/ThumbnailGenerator.svg?style=flat)](https://cocoapods.org/pods/ThumbnailGenerator)
 [![Platform](https://img.shields.io/cocoapods/p/ThumbnailGenerator.svg?style=flat)](https://cocoapods.org/pods/ThumbnailGenerator)
@@ -22,7 +22,7 @@ pod 'ThumbnailGenerator'
 
 ## Author
 
-jonatahnburris, jonathanburris@Jonathans-MacBook-Pro-2.local
+bcgllc, Burris Consulting Group, LLC
 
 ## License
 

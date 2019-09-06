@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  ThumbnailGenerator
 //
-//  Created by jonatahnburris on 09/06/2019.
-//  Copyright (c) 2019 jonatahnburris. All rights reserved.
+//  Created by bcgllc on 09/06/2019.
+//  Copyright (c) 2019 bcgllc. All rights reserved.
 //
 
 import UIKit

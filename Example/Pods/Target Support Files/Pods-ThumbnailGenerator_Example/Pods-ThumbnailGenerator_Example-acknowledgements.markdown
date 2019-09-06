@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## ThumbnailGenerator
 
-Copyright (c) 2019 jonatahnburris <jonathanburris@Jonathans-MacBook-Pro-2.local>
+Copyright (c) 2019 bcgllc <Burris Consulting Group, LLC>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
